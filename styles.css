@@ -1,0 +1,28 @@
+*{
+margin: 0;  
+padding: 0;
+box-sizing: border-box;
+}
+
+header{
+background-color: #fffeff;
+
+}
+
+body{
+background-color: black;    
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #fffeff;
+}
+ul{
+display: flex;
+gap: 12px;
+list-style-type: none;
+
+
+
+}
