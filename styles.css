@@ -4,25 +4,59 @@ padding: 0;
 box-sizing: border-box;
 }
 
-header{
-background-color: #fffeff;
-
-}
 
 body{
-background-color: black;    
+background-color: black; 
+font-family: sans-serif;
 }
 header{
 
     display: flex;
     justify-content: space-between;
     background-color: #fffeff;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 20px;
+    position: fixed;
+
 }
 ul{
 display: flex;
-gap: 12px;
+gap: 20px;
 list-style-type: none;
 
 
+}
+.logo{
+    font-size: 30px;
+    font-weight: ;
+    font-family:Google Sans", sans-serif ;
+}
 
+li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 12px;
+
+}
+.trans-btn{
+border: 0;
+background-color: inherit;
+text-transform: capitalize;
+font-weight: 550px;
+}
+
+.black-btn{
+    color: white;
+    background-color:  #171715;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+
+}
+.btn-container{
+    display: flex;
+    gap: 20px;
 }
