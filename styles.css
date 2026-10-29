@@ -85,9 +85,53 @@ border-bottom-left-radius: 15px;
     background-color: #f5f5f2;
     display: flex;
     align-items: center;
+    
 }
 .nnn{
     display: flex;
     gap: 20px;
     flex-direction: column;
+    margin-left: 40px;
+}
+
+.hero h1{
+    font: size 2.4rem;
+    line-height: 1.1;
+}
+
+.nnn p{
+    color: #5e5e5c;
+}
+
+#xxx{
+    font-weight: bold;
+}
+#deko{
+    font-size: 1.3rem;
+    font-family:"Google sans" sans-serif ;
+}
+
+.aiden{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dcdcdc;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+textarea{
+width: 100%;
+resize: none;
+border: none;
+padding: 5px 15px;
+outline: none;
+font-family: "open-sans",sans-serif;
+font-size: 1.2rem;
+}
+
+.andy{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    padding-bottom: 10px;
 }
